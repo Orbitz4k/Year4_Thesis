@@ -204,3 +204,4 @@ Received Import Request.
 Start importing Assets/PolygonCity/Prefabs/Props using Guid(751ea0a08bbc3464f8e24ff62c367789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4449908056266123c683a5396a6e974') in 0.009127 seconds 
   Import took 0.013753 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
