@@ -15,12 +15,12 @@ C:/Users/orbii/Documents/GitHub/Year4VR/Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54247
+56370
 Successfully changed project path to: C:/Users/orbii/Documents/GitHub/Year4VR/Test
 C:/Users/orbii/Documents/GitHub/Year4VR/Test
 Using Asset Import Pipeline V2.
 Unable to join player connection multicast group.
-Refreshing native plugins compatible for Editor in 71.39 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 77.90 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -36,7 +36,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -44,76 +44,76 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.004600 seconds.
+Registered in 0.004727 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 61.89 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 61.39 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.628 seconds
+- Completed reload, in  3.018 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2629ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (3018ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (476ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (479ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
+			SetupTypeCache (163ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (191ms)
+			SetupLoadedEditorAssemblies (184ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
+				RefreshPlugins (61ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010576 seconds.
+Registered in 0.010769 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.19 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 65.70 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.187 seconds
+- Completed reload, in  1.218 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1189ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (979ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
+			SetupTypeCache (313ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (399ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (413ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (243ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (253ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
@@ -123,89 +123,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.3 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2543.
-Total: 4.383900 ms (FindLiveObjects: 0.363800 ms CreateObjectMapping: 0.092700 ms MarkObjects: 3.786500 ms  DeleteObjects: 0.138100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/IMG_0483.png
-  artifactKey: Guid(ce14683036700274b8335c932090f1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/IMG_0483.png using Guid(ce14683036700274b8335c932090f1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3e33e382e4aef7c62d25a42c8a557a') in 0.076811 seconds 
-  Import took 0.080952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.531168 seconds.
-  path: Assets/Scenes/IMG_0483.png
-  artifactKey: Guid(ce14683036700274b8335c932090f1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/IMG_0483.png using Guid(ce14683036700274b8335c932090f1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53114a9d4b94242e5c440ce0b8315b08') in 0.008871 seconds 
-  Import took 0.013460 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009905 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1069ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (871ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (299ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (317ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.07 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2096 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.4 MB.
-System memory in use after: 95.5 MB.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2589.
-Total: 4.216100 ms (FindLiveObjects: 0.380800 ms CreateObjectMapping: 0.110800 ms MarkObjects: 3.571200 ms  DeleteObjects: 0.151600 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 4.164500 ms (FindLiveObjects: 0.320900 ms CreateObjectMapping: 0.084700 ms MarkObjects: 3.600000 ms  DeleteObjects: 0.157300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -219,182 +144,425 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 285.872075 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks
-  artifactKey: Guid(09c473d3d12a26544a1268c32d37f259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks using Guid(09c473d3d12a26544a1268c32d37f259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ec2b187800f38d0abd84a8ccfaa270') in 0.014053 seconds 
-  Import took 0.019108 seconds .
+  path: Assets/PolygonCity/Prefabs
+  artifactKey: Guid(719f0ae4e975aeb47af8210fbafd273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Prefabs using Guid(719f0ae4e975aeb47af8210fbafd273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f25077fa3855c8a46ef13227fbc5a27') in 0.011949 seconds 
+  Import took 0.016281 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.466929 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents
-  artifactKey: Guid(4777e4211dc148f4bbd119d5cb19e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents using Guid(4777e4211dc148f4bbd119d5cb19e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a31b92b707169ee4929ce0210590fd') in 0.007964 seconds 
-  Import took 0.011967 seconds .
+  Time since last request: 0.000257 seconds.
+  path: Assets/PolygonCity/Textures
+  artifactKey: Guid(fb156a8043aa65c4b88a9f3443e9f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Textures using Guid(fb156a8043aa65c4b88a9f3443e9f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f45dfa3fbe7735a7ec0e75453980e1') in 0.007937 seconds 
+  Import took 0.011764 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.170663 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Materials
-  artifactKey: Guid(62ada5db5930f0441a523518e7f51256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Materials using Guid(62ada5db5930f0441a523518e7f51256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e2458377be0212c518fd49f9fc3df1') in 0.010355 seconds 
-  Import took 0.014550 seconds .
+  Time since last request: 0.000326 seconds.
+  path: Assets/PolygonCity/Scenes
+  artifactKey: Guid(f422dbe4849e51347af15eedd142ec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Scenes using Guid(f422dbe4849e51347af15eedd142ec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8189b688ddc4499c73db5bf5e5300dd3') in 0.007267 seconds 
+  Import took 0.011934 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.048498 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Materials/M_LEDBlue.mat
-  artifactKey: Guid(d2f6c6d261ec30d4788e33a9951a2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Materials/M_LEDBlue.mat using Guid(d2f6c6d261ec30d4788e33a9951a2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5e6d80a3508464cd2598a30c8e0c9a') in 0.104618 seconds 
-  Import took 0.108809 seconds .
+  Time since last request: 7.209204 seconds.
+  path: Assets/PolygonCity/Prefabs/Environments
+  artifactKey: Guid(ee18d67393060e549ab351fbb7b235a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Prefabs/Environments using Guid(ee18d67393060e549ab351fbb7b235a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f904df2833bd025d19ec86f50fd5c0f') in 0.010391 seconds 
+  Import took 0.014905 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.444096 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Post-Processing/Bloom.asset
-  artifactKey: Guid(44ff1565856b8ef4594e23b8e132b715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Post-Processing/Bloom.asset using Guid(44ff1565856b8ef4594e23b8e132b715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfc48a19382c4f855b09b5ffc0af060') in 0.011783 seconds 
-  Import took 0.016199 seconds .
+  Time since last request: 353.390738 seconds.
+  path: Assets/POLYGON_Farm_SourceFiles/SourceFiles/Polygon_Farm_Demo_FBX.fbx
+  artifactKey: Guid(1651479aaea190248b3a8eefcea53bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON_Farm_SourceFiles/SourceFiles/Polygon_Farm_Demo_FBX.fbx using Guid(1651479aaea190248b3a8eefcea53bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4285fdb04f2c514d83649d3181996dc') in 19.276851 seconds 
+  Import took 19.320779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.806780 seconds.
+  path: Assets/POLYGON_Farm_SourceFiles.zip
+  artifactKey: Guid(61da22e5f2ba7a3498cfc03fe29ea624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON_Farm_SourceFiles.zip using Guid(61da22e5f2ba7a3498cfc03fe29ea624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ca715f3cef6906a2d930babd4abf2f') in 0.014328 seconds 
+  Import took 0.019295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.605753 seconds.
+  path: Assets/SourceFiles/Polygon_Farm_Demo_FBX.fbx
+  artifactKey: Guid(2b686b6a615cf254887c279e0d1d434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SourceFiles/Polygon_Farm_Demo_FBX.fbx using Guid(2b686b6a615cf254887c279e0d1d434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad46b303ed9e5310e8788addedd89c8') in 18.790772 seconds 
+  Import took 18.837875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.049175 seconds.
+  path: Assets/LowPolyFarmLite/Models
+  artifactKey: Guid(f2b0f3a6eb99b41409350fabfd873296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models using Guid(f2b0f3a6eb99b41409350fabfd873296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045c4022e808f8eef35f8bd69158d683') in 0.007247 seconds 
+  Import took 0.011483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055544 seconds.
+  path: Assets/LowPolyFarmLite/Models/Box_01.fbx
+  artifactKey: Guid(ff53e1a687da3e94aad8ba03f54ffac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Box_01.fbx using Guid(ff53e1a687da3e94aad8ba03f54ffac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f07f7e287bd0907943273e7b3bfd20') in 0.022549 seconds 
+  Import took 0.026963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/LowPolyFarmLite/Models/TomatoPlant_01.fbx
+  artifactKey: Guid(88133688ce354be4c85e1c167e475c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/TomatoPlant_01.fbx using Guid(88133688ce354be4c85e1c167e475c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf4acced8a41641063db475f6b3684a') in 0.033988 seconds 
+  Import took 0.038267 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000275 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Post-Processing/NonBloom.asset
-  artifactKey: Guid(3db5df59d98b18c4995e236f05b634a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Post-Processing/NonBloom.asset using Guid(3db5df59d98b18c4995e236f05b634a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d5b55a9f321ac0f20ac74c8267a2aa') in 0.008145 seconds 
-  Import took 0.011960 seconds .
+  path: Assets/LowPolyFarmLite/Models/Fence_01.fbx
+  artifactKey: Guid(19691f6aa755db9428322cf11b5b1ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Fence_01.fbx using Guid(19691f6aa755db9428322cf11b5b1ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedf1acb8d7cc78a44da33f8112eeb87') in 0.019253 seconds 
+  Import took 0.023492 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.381137 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Node.prefab
-  artifactKey: Guid(a8fa3d785a0778c45ad2984740895d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Node.prefab using Guid(a8fa3d785a0778c45ad2984740895d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8c5896847bbe15280c078e67a17959') in 0.027076 seconds 
-  Import took 0.031245 seconds .
+  Time since last request: 0.000243 seconds.
+  path: Assets/LowPolyFarmLite/Models/Grass_02.fbx
+  artifactKey: Guid(fc007040ddf56d841ad2083f918a0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Grass_02.fbx using Guid(fc007040ddf56d841ad2083f918a0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06e11c5e57d88e438fd809bfa497d6b') in 0.020499 seconds 
+  Import took 0.024961 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Square_Example.prefab
-  artifactKey: Guid(af5b2da1066423547ab097090fe91b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Square_Example.prefab using Guid(af5b2da1066423547ab097090fe91b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a61877e44c7e47727c66dc4b20dd0d4') in 0.021046 seconds 
-  Import took 0.025224 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/LowPolyFarmLite/Models/Terrain_01.fbx
+  artifactKey: Guid(593fb94d50cebfc42887e62a057c01fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Terrain_01.fbx using Guid(593fb94d50cebfc42887e62a057c01fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defba83292e49ed004168bb1ae2025d1') in 0.018679 seconds 
+  Import took 0.022888 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Tube.prefab
-  artifactKey: Guid(20d1a925ab1a84b4881c253bf4a32c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Tube.prefab using Guid(20d1a925ab1a84b4881c253bf4a32c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b598c741a13a71c5095565c358347562') in 0.015461 seconds 
-  Import took 0.019623 seconds .
+  Time since last request: 0.000264 seconds.
+  path: Assets/LowPolyFarmLite/Models/Rock_04.fbx
+  artifactKey: Guid(682bef71ca092ef49bfed7f1cef5b893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Rock_04.fbx using Guid(682bef71ca092ef49bfed7f1cef5b893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1815e1684d5321f25a8702e4ce87700a') in 0.019994 seconds 
+  Import took 0.024858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/LowPolyFarmLite/Models/Mud_01.fbx
+  artifactKey: Guid(aaff327437b0be14f9c6d1be9b411708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Mud_01.fbx using Guid(aaff327437b0be14f9c6d1be9b411708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6989e8152288198510779bb068b212f7') in 0.020253 seconds 
+  Import took 0.024686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/LowPolyFarmLite/Models/Tomato_03.fbx
+  artifactKey: Guid(b7cf12fb849f2ce4592a36e9c9c8d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Tomato_03.fbx using Guid(b7cf12fb849f2ce4592a36e9c9c8d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb6f43450ae9ff44286b3917cab0fd9') in 0.034685 seconds 
+  Import took 0.039016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/LowPolyFarmLite/Models/Tree_04.fbx
+  artifactKey: Guid(1a2e91ebc86d2c84ca817eb30abe86d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Tree_04.fbx using Guid(1a2e91ebc86d2c84ca817eb30abe86d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b5c19b3cf88ababc48badf08300d94') in 0.022024 seconds 
+  Import took 0.026556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/LowPolyFarmLite/Models/Cabbage_01.fbx
+  artifactKey: Guid(0f50786d35eebcf44805f9d5fb326c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/Cabbage_01.fbx using Guid(0f50786d35eebcf44805f9d5fb326c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47de010c2bcc05f992d44c9718e069d7') in 0.033079 seconds 
+  Import took 0.037443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/LowPolyFarmLite/Models/WateringCan_01.fbx
+  artifactKey: Guid(1311afae6eeeaa84fbfa2d81fcaf9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Models/WateringCan_01.fbx using Guid(1311afae6eeeaa84fbfa2d81fcaf9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95ae1e61d10bcf4e8ccc9dff343f302') in 0.019484 seconds 
+  Import took 0.023688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.118903 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Box_01.prefab
+  artifactKey: Guid(d26dc1241d332c342b898a57f1164932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Box_01.prefab using Guid(d26dc1241d332c342b898a57f1164932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f580f360fa86648914800b5ff2197a99') in 0.096964 seconds 
+  Import took 0.101720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Rock_04.prefab
+  artifactKey: Guid(748ca274b89873247873cee26d353629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Rock_04.prefab using Guid(748ca274b89873247873cee26d353629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0909b29d57b668b7a6023aa1fd85b5') in 0.017375 seconds 
+  Import took 0.021942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Mud_01.prefab
+  artifactKey: Guid(c4fa87cd4eff4ae4ba4c8d1ad48df5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Mud_01.prefab using Guid(c4fa87cd4eff4ae4ba4c8d1ad48df5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a549b1cf9bf5186dfda48eb0b36815') in 0.015439 seconds 
+  Import took 0.020323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/WateringCan_01.prefab
+  artifactKey: Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/WateringCan_01.prefab using Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cd35c773ea521da83d9912d12c8fd7') in 0.014712 seconds 
+  Import took 0.019095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/TomatoPlant_01.prefab
+  artifactKey: Guid(78da2ace1ab76ce478600ebe37fa10fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/TomatoPlant_01.prefab using Guid(78da2ace1ab76ce478600ebe37fa10fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fb96e6b0472235f5bc0692398ae1f2') in 0.017462 seconds 
+  Import took 0.021796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Fence_01.prefab
+  artifactKey: Guid(cb422acdc199d6e42910f589b81c283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Fence_01.prefab using Guid(cb422acdc199d6e42910f589b81c283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efa009fd482f5c2780b8cb8ef874af8') in 0.014044 seconds 
+  Import took 0.018651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Cabbage_01.prefab
+  artifactKey: Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Cabbage_01.prefab using Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb11dbc7ec0e73f8628e5f36454d9108') in 0.016306 seconds 
+  Import took 0.020809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Tree_04.prefab
+  artifactKey: Guid(bae468b3a6b9ea141967f3cfbe601352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Tree_04.prefab using Guid(bae468b3a6b9ea141967f3cfbe601352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff988b9e4d317837dd61ac84825a0b4') in 0.017537 seconds 
+  Import took 0.021918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Grass_02.prefab
+  artifactKey: Guid(81dad7d5552c9a341b390c79338fe0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Grass_02.prefab using Guid(81dad7d5552c9a341b390c79338fe0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c6a6964a06e64323894a7577de0029') in 0.014373 seconds 
+  Import took 0.018850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Terrain_01.prefab
+  artifactKey: Guid(7ddfa3a1d18174043aab251be6df3a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Terrain_01.prefab using Guid(7ddfa3a1d18174043aab251be6df3a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80220372fb653330bb1331b486ffce2d') in 0.015111 seconds 
+  Import took 0.019448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Tomato_03.prefab
+  artifactKey: Guid(fd8e0760db14a534a89257f68a4f2a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Prefabs/Tomato_03.prefab using Guid(fd8e0760db14a534a89257f68a4f2a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b698d0d1369e0ebb03425a24c85ad13') in 0.014376 seconds 
+  Import took 0.018733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.749837 seconds.
+  path: Assets/LowPolyFarmLite/Textures/LowPolyFarmLite_Texture_01.png
+  artifactKey: Guid(7bc9a4bafdf20d7409ec5c6155c56f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Textures/LowPolyFarmLite_Texture_01.png using Guid(7bc9a4bafdf20d7409ec5c6155c56f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e399ffe484fd3af2bade2b91dfcaaaf') in 0.025083 seconds 
+  Import took 0.029333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.363677 seconds.
+  path: Assets/LowPolyFarmLite/Materials/LowPolyFarmLite_MAIN.mat
+  artifactKey: Guid(382e2b1b7fbf94945963320a17603c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Materials/LowPolyFarmLite_MAIN.mat using Guid(382e2b1b7fbf94945963320a17603c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f3c55300046ff262b47cb9785df530') in 0.019795 seconds 
+  Import took 0.024304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.443794 seconds.
+  path: Assets/LowPolyFarmLite/Scenes/LowPolyFarmLite_Demo.unity
+  artifactKey: Guid(02b22eabe90848144a0d8977d339b3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Scenes/LowPolyFarmLite_Demo.unity using Guid(02b22eabe90848144a0d8977d339b3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765264db68cc393231f63f7ff57c422d') in 0.007602 seconds 
+  Import took 0.012061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 491.990933 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky/Materials
+  artifactKey: Guid(d6f3ff4fa0f80d44d820fe2f1062e444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky/Materials using Guid(d6f3ff4fa0f80d44d820fe2f1062e444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7bc16e06a8b4db7c5601c9eb94b470') in 0.007544 seconds 
+  Import took 0.013040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122539 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky/Materials/Sky_Day_BlueSky_Equirect.mat
+  artifactKey: Guid(6e90c409db540d04b8fc93b2300b94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky/Materials/Sky_Day_BlueSky_Equirect.mat using Guid(6e90c409db540d04b8fc93b2300b94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60fd414ff409ca55822a55a1d1435a2') in 0.054853 seconds 
+  Import took 0.061006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.161331 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset Equirect.mat
+  artifactKey: Guid(cdbb40e11399e4a17882ada20a1b896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset Equirect.mat using Guid(cdbb40e11399e4a17882ada20a1b896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b462eb6570defc9f3570a9ad23c29c') in 0.096792 seconds 
+  Import took 0.103003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_4_Up+Y.png
+  artifactKey: Guid(912bf47cb4f5f4c6ea43b7a8bd2eb0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_4_Up+Y.png using Guid(912bf47cb4f5f4c6ea43b7a8bd2eb0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e856294d1ab8058467eeeee7f7b63cd') in 0.030736 seconds 
+  Import took 0.035277 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000273 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_X_Example.prefab
-  artifactKey: Guid(660e542dbb2b7d2478865c890adcd3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_X_Example.prefab using Guid(660e542dbb2b7d2478865c890adcd3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f807c3a7192ad7b773512db81cd730c') in 0.016941 seconds 
-  Import took 0.021169 seconds .
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_2_Left+X.png
+  artifactKey: Guid(604c8e250817f485c97f85e8237f7524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_2_Left+X.png using Guid(604c8e250817f485c97f85e8237f7524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c64033493e52fd8fb3674ef5625c74') in 0.032685 seconds 
+  Import took 0.036965 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.534019 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable.png
-  artifactKey: Guid(3222a9c550eb588429237a20c31d4a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable.png using Guid(3222a9c550eb588429237a20c31d4a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe676544fc43542b338f6493f3a84d6') in 0.016175 seconds 
-  Import took 0.020419 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_3_Right-X.png
+  artifactKey: Guid(04869052f46ba428caebe862513e3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_3_Right-X.png using Guid(04869052f46ba428caebe862513e3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4d4985cd184697844ca7c27ad28ffe') in 0.030320 seconds 
+  Import took 0.034414 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_normal.tif
-  artifactKey: Guid(2b77fd5cd99b64847a0a861634d4e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_normal.tif using Guid(2b77fd5cd99b64847a0a861634d4e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8007e6cb6f31dc146d0eaf76664a21') in 0.025949 seconds 
-  Import took 0.030391 seconds .
+  Time since last request: 0.000338 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_1_Back-Z.png
+  artifactKey: Guid(cbdb0c81375e549b1bae3506c1863a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_1_Back-Z.png using Guid(cbdb0c81375e549b1bae3506c1863a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168bf5623605fd0ed84fbdbb7fc09fc1') in 0.029405 seconds 
+  Import took 0.033633 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_roughness.tif
-  artifactKey: Guid(7d6463d6d1a109d41845d22f913bfa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_roughness.tif using Guid(7d6463d6d1a109d41845d22f913bfa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecfd65d082aeacab59cd707db56196a') in 0.013434 seconds 
-  Import took 0.017627 seconds .
+  Time since last request: 0.000281 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset.mat
+  artifactKey: Guid(7416536dbe0334cfd888dd1beb75a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset.mat using Guid(7416536dbe0334cfd888dd1beb75a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ecb0d1bdcd0694d4e2511d730274b5') in 0.217787 seconds 
+  Import took 0.222458 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_height.tif
-  artifactKey: Guid(723aa10f910c0ea41a0b9d9629dfede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_height.tif using Guid(723aa10f910c0ea41a0b9d9629dfede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3e8f187857af65aa7df1578880b95e') in 0.014568 seconds 
-  Import took 0.018760 seconds .
+  Time since last request: 0.000267 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_EquiRect_flat.png
+  artifactKey: Guid(e71fc492f440446b99875b8e1df890ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_EquiRect_flat.png using Guid(e71fc492f440446b99875b8e1df890ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af316020c638c762e8a1540ee32ea4b5') in 0.286295 seconds 
+  Import took 0.292124 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_Illum_Clean.png
-  artifactKey: Guid(53de99d4592f2524182214150a4c2931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_Illum_Clean.png using Guid(53de99d4592f2524182214150a4c2931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcea98ecc57b649661fd73f3b15c72f6') in 0.013507 seconds 
-  Import took 0.017663 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_0_Front+Z.png
+  artifactKey: Guid(33dc9d88f32144697ba9777ee1aaae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_0_Front+Z.png using Guid(33dc9d88f32144697ba9777ee1aaae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d11bd97506b96805883e19d0997b9f') in 0.016712 seconds 
+  Import took 0.021415 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010075 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.065 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1065ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (867ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (327ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.08 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2054 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.6 MB.
-System memory in use after: 97.7 MB.
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_5_Down-Y.png
+  artifactKey: Guid(3e1c1042c332d4444bfe47799ff3e0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_5_Down-Y.png using Guid(3e1c1042c332d4444bfe47799ff3e0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631e4c3c805296b2c32f1a1ac9975632') in 0.016207 seconds 
+  Import took 0.020435 seconds .
 
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 2595.
-Total: 4.053100 ms (FindLiveObjects: 0.324400 ms CreateObjectMapping: 0.080800 ms MarkObjects: 3.591900 ms  DeleteObjects: 0.054500 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.357782 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.mat
+  artifactKey: Guid(13f6e5eed33d84c76979f1ec06b5e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.mat using Guid(13f6e5eed33d84c76979f1ec06b5e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e93042fa225caeac0f7b36053640428') in 0.093521 seconds 
+  Import took 0.100061 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.mat
+  artifactKey: Guid(656058fe318eb48558d21d66d1a79a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.mat using Guid(656058fe318eb48558d21d66d1a79a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559f8d341d6cf5182f76150f06a65023') in 0.128354 seconds 
+  Import took 0.132844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png
+  artifactKey: Guid(3a639720a92414f45b72b16d6db788ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png using Guid(3a639720a92414f45b72b16d6db788ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5842f96413c5715cbe40a52a804d945b') in 0.017070 seconds 
+  Import took 0.021510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_0_Front+Z.png
+  artifactKey: Guid(0b5345cf23ab840779a8cbf1b89f355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_0_Front+Z.png using Guid(0b5345cf23ab840779a8cbf1b89f355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39272b7f19fab5ae8414e211f14c092') in 0.017491 seconds 
+  Import took 0.021541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_3_Right-X.png
+  artifactKey: Guid(ca9af6b5ce9284592aabb781392ff61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_3_Right-X.png using Guid(ca9af6b5ce9284592aabb781392ff61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd20663b4c2609b83c4e5b3a1522bbf1') in 0.016845 seconds 
+  Import took 0.021194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png
+  artifactKey: Guid(0264465325ebb45239163258479c2a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png using Guid(0264465325ebb45239163258479c2a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9266b501b6528763fe45f9a2d68c43') in 0.018302 seconds 
+  Import took 0.023368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.png
+  artifactKey: Guid(393dd4c82e2a04ec08ef9f57528230c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.png using Guid(393dd4c82e2a04ec08ef9f57528230c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd958f1888f6eaafa399d39773023c69') in 0.298539 seconds 
+  Import took 0.304606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png
+  artifactKey: Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png using Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ac893940dd24bed07a20f49effa66d') in 0.019743 seconds 
+  Import took 0.024896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_4_Up+Y.png
+  artifactKey: Guid(a6e9f4ff100a94264a812ad74e17416c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_4_Up+Y.png using Guid(a6e9f4ff100a94264a812ad74e17416c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cdb12bbf5e0c146e454ff8818fd95e') in 0.019457 seconds 
+  Import took 0.024049 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
