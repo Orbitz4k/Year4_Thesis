@@ -3,16 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Portal : MonoBehaviour
+public class Puzzle : MonoBehaviour
 {
-    public int sceneNumber;
+    private AudioSource audioSource;
+    public AudioClip Scored;
 
     public ParticleSystem particleEffect;
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Puzzle")
         {
-            Destroy(collision.gameObject)
+            Destroy(collision.gameObject);
+            audioSource = GetComponent<AudioSource>();
+            audioSource.clip = Scored;
+            audioSource.Play();
         }
 
     }

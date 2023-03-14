@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Demo 1.unity
+    guid: bddceafefaad323419bbc904769182ac
+  - enabled: 1
+    path: Assets/Scenes/Puzzle.unity
+    guid: f97c7381b6fc56f4bbfb93a986440c18
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2a9942391408d1346913282e539264a7, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0040291ed340a664095e7ef872fc52a6, type: 2}

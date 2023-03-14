@@ -5,15 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour
 {
-    public int sceneNumber;
-
-    public ParticleSystem particleEffect;
-     void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(sceneNumber);
+            SceneManager.LoadScene(1);
         }
-        
     }
 }
