@@ -8,12 +8,12 @@ public class Portal : MonoBehaviour
     public int sceneNumber;
 
     public ParticleSystem particleEffect;
-     void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Puzzle")
         {
-            SceneManager.LoadScene(sceneNumber);
+            Destroy(collision.gameObject)
         }
-        
+
     }
 }
