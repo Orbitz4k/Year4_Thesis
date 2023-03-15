@@ -18,6 +18,5 @@ public class Puzzle : MonoBehaviour
             audioSource.clip = Scored;
             audioSource.Play();
         }
-
     }
 }
