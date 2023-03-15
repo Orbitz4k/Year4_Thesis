@@ -9,6 +9,7 @@ public class Portal : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            AddToLogFile.LogLine("Moved Scenes");
             SceneManager.LoadScene(1);
         }
     }

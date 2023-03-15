@@ -15,6 +15,7 @@ public class Puzzle : MonoBehaviour
         {
             Destroy(collision.gameObject);
             audioSource = GetComponent<AudioSource>();
+            AddToLogFile.LogLine("Puzzle piece dropped");
             audioSource.clip = Scored;
             audioSource.Play();
         }
