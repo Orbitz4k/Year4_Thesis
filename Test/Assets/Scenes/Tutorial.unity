@@ -44214,7 +44214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef76ce5b0663672498c579400a1d2473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scored: {fileID: 8300000, guid: 56b55326d07c3a04c84a9e0cd1ac8dd1, type: 3}
+  Scored: {fileID: 8300000, guid: 5d6107eb432b6994f9f57e177dafc81e, type: 3}
   particleEffect: {fileID: 0}
 --- !u!82 &1795219104
 AudioSource:
@@ -44226,7 +44226,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 56b55326d07c3a04c84a9e0cd1ac8dd1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5d6107eb432b6994f9f57e177dafc81e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
