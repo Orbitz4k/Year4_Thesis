@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Puzzle
   - Portal
+  - Puzzle2
   layers:
   - Default
   - TransparentFX

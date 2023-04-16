@@ -6259,7 +6259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234353839}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -14.692, y: 1.924, z: 9.264}
+  m_LocalPosition: {x: -14.692, y: 1.546, z: 9.168}
   m_LocalScale: {x: 0.098662, y: 3.1143, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8134,7 +8134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 627616503915408604, guid: bb9ea98df702eb740890ff558059bc14, type: 3}
       propertyPath: m_TagString
-      value: Puzzle
+      value: Puzzle2
       objectReference: {fileID: 0}
     - target: {fileID: 4534812814658379471, guid: bb9ea98df702eb740890ff558059bc14, type: 3}
       propertyPath: m_RootOrder
@@ -27128,7 +27128,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 118
   m_CollisionDetection: 0
 --- !u!1 &1098725423
 GameObject:
@@ -48294,7 +48294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4087830480357606, guid: ae8ce1c258125ac4db2163e712c99949, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.127946
+      value: -4.129
       objectReference: {fileID: 0}
     - target: {fileID: 4087830480357606, guid: ae8ce1c258125ac4db2163e712c99949, type: 3}
       propertyPath: m_LocalPosition.z
@@ -51601,11 +51601,11 @@ PrefabInstance:
     - target: {fileID: 3054157196445503583, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: startTeleportAction.m_Reference
       value: 
-      objectReference: {fileID: -4456888692727725139, guid: ea9500ae32862c949b420c59682d02ed, type: 3}
+      objectReference: {fileID: 8650556816782149517, guid: ea9500ae32862c949b420c59682d02ed, type: 3}
     - target: {fileID: 3054157196445503583, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: finishTeleportAction.m_Reference
       value: 
-      objectReference: {fileID: -3694457766066378137, guid: ea9500ae32862c949b420c59682d02ed, type: 3}
+      objectReference: {fileID: -1398031799169746360, guid: ea9500ae32862c949b420c59682d02ed, type: 3}
     - target: {fileID: 3054519794448281482, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: m_Name
       value: OpenXRPlayer

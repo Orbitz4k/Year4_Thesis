@@ -9959,7 +9959,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 627616503915408604, guid: bb9ea98df702eb740890ff558059bc14, type: 3}
       propertyPath: m_TagString
-      value: Puzzle
+      value: Puzzle2
       objectReference: {fileID: 0}
     - target: {fileID: 4534812814658379471, guid: bb9ea98df702eb740890ff558059bc14, type: 3}
       propertyPath: m_RootOrder
