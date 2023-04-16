@@ -5024,7 +5024,7 @@ PrefabInstance:
       objectReference: {fileID: 520289532}
     - target: {fileID: 3054519794448281483, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: speed
-      value: 2.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3054519794448281483, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: m_Enabled
@@ -5036,7 +5036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3054519794448281483, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: turnAngle
-      value: 150
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 3054519794448281483, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: snapTurning
