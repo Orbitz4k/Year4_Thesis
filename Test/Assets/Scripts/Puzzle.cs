@@ -19,5 +19,13 @@ public class Puzzle : MonoBehaviour
             audioSource.clip = Scored;
             audioSource.Play();
         }
+        if (collision.gameObject.tag == "Puzzle2")
+        {
+            Destroy(collision.gameObject);
+            audioSource = GetComponent<AudioSource>();
+            AddToLogFile.LogLine("Puzzle piece dropped");
+            audioSource.clip = Scored;
+            audioSource.Play();
+        }
     }
 }
