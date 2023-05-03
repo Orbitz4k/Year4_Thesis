@@ -32306,7 +32306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4719498968730246, guid: a2fe7f9dc74a5ff4696014f411430c80, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.471
+      value: -8.59
       objectReference: {fileID: 0}
     - target: {fileID: 4719498968730246, guid: a2fe7f9dc74a5ff4696014f411430c80, type: 3}
       propertyPath: m_LocalPosition.y
@@ -51532,7 +51532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1301054289922259880, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1419303268588553814, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: m_Layer
@@ -51596,16 +51596,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3054157196445503583, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3054157196445503583, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: startTeleportAction.m_Reference
       value: 
-      objectReference: {fileID: -4456888692727725139, guid: ea9500ae32862c949b420c59682d02ed, type: 3}
+      objectReference: {fileID: 8650556816782149517, guid: ea9500ae32862c949b420c59682d02ed, type: 3}
     - target: {fileID: 3054157196445503583, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: finishTeleportAction.m_Reference
       value: 
-      objectReference: {fileID: -3694457766066378137, guid: ea9500ae32862c949b420c59682d02ed, type: 3}
+      objectReference: {fileID: -1398031799169746360, guid: ea9500ae32862c949b420c59682d02ed, type: 3}
     - target: {fileID: 3054519794448281482, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: m_Name
       value: OpenXRPlayer
@@ -51632,11 +51632,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3054519794448281483, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: turnAngle
-      value: 75
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 3054519794448281483, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: snapTurning
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3054519794448281483, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: moveAction.m_UseReference
@@ -51824,7 +51824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7230253625085860686, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7367745973588755323, guid: 03ad4a611deff2240af8f09f8bf54b37, type: 3}
       propertyPath: m_Layer

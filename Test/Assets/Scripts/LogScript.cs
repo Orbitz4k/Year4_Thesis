@@ -11,8 +11,8 @@ public class LogScript : MonoBehaviour
 
 	 void Start()
 	{
-		AddToLogFile.userNumber = "1";
-		AddToLogFile.CreateNewLogFileWithId("1");
+		AddToLogFile.userNumber = "Demo";
+		AddToLogFile.CreateNewLogFileWithId("Demo");
 		AddToLogFile.LogLine("Start");
 		//SceneManager.LoadScene("scene2");
 	}
